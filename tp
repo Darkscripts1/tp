@@ -1,7 +1,6 @@
 while true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(678.197754, 16.5063076, 1082.30078, -0.426381409, 1.24059101e-08, -0.904543459, 4.92848287e-08, 1, -9.51665236e-09, 0.904543459, -4.86379932e-08, -0.426381409)
-end
-task.wait(1)
-while true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(720.193542, 16.8433475, 1021.98962, -0.871071219, -5.884025e-08, 0.491156727, -3.65237507e-09, 1, 1.13321811e-07, -0.491156727, 9.6917482e-08, -0.871071219)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(678.197754, 16.5063076, 1082.30078, -0.426381409, 1.24059101e-08, -0.904543459, 4.92848287e-08, 1, -9.51665236e-09, 0.904543459, -4.86379932e-08, -0.426381409)
+    wait(3) -- Wait for 3 seconds before switching to the next position
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(720.193542, 16.8433475, 1021.98962, -0.871071219, -5.884025e-08, 0.491156727, -3.65237507e-09, 1, 1.13321811e-07, -0.491156727, 9.6917482e-08, -0.871071219)
+    wait(3) -- Wait for 3 seconds before switching back to the first position
 end
